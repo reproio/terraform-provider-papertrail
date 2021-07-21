@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/oogway/goptrail"
+	"github.com/okkez/goptrail"
 )
 
 func providerConfigure(d *schema.ResourceData) (interface{}, error) {

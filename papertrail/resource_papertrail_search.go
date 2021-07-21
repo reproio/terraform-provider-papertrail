@@ -6,7 +6,7 @@ import (
 	"strconv"
 
 	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/oogway/goptrail"
+	"github.com/okkez/goptrail"
 )
 
 func resourcePapertrailSearch() *schema.Resource {
